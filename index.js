@@ -18,7 +18,6 @@ function getSelectorValue() {
         while (itensLista[0]) {
             listaMunicipios.removeChild(itensLista[0]);
         }
-        console.log(itensLista);
         for (let i = 0; i < municipios.length; i++) {
             const municipio = municipios[i];
 
